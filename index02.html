@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        *
+        {
+            font-family: Arial, sans-serif;
+        }
+        body
+        {
+            box-sizing:border-box;
+        }
+        form
+        {
+            background-color: #e4f19e;
+            width:700px;
+        }
+        form h1
+        {
+            color:blue;
+            margin:10px;
+            border:5px solid #e4f19e;
+            background-color:skyblue;
+            text-align:left;
+        }
+        label
+        {
+            color:blue;
+            width:200px;
+        }
+    </style>
+    <meta name="viewport" content="width:width-device,initial-scale:1.0">
+</head>
+<body>
+    <form action="">
+        <h1>SIGN UP</h1>
+
+        <table>
+            <tr>
+                <td>
+                    <label for="fullname">Full Name</label><br><br>
+                    <label for="birthday">Birthday</label><br><br>
+                    <span style="color:blue;">Gender</span><br><br><br>
+                    <label for="address">Address</label><br><br><br><br><br>
+                    <label for="class">Choose Class</label><br><br>
+                    <label for="email">Email</label><br><br>
+                    <label for="phonenumber">Phone Number</label><br><br><br><br>
+                </td>
+                <td>
+                    <input type="text" id="fullname" name="fullname" size="40"><br><br>
+                    <input type="text" id="birthday" name="birthday" size="30"><br><br>
+                    <input type="radio" id="male" name="gender">Male
+                    <input type="radio" id="female" name="gender">Female<br><br>
+                    <textarea name="address" id="address" cols="30" rows="4"></textarea><br><br>
+                    <select name="class" id="class">
+                        <option value="-Choose class-">-Choose Class-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select><br><br>
+                    <input type="text" id="email" name="email"><br><br>
+                    <input type="text" id="phonenumber" name="phonenumber"><br><br>
+                    <input type="submit" value="Sign up">
+                    <input type="reset" value="Rewrite">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
