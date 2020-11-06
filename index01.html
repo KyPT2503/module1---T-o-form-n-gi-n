@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            box-sizing:border-box;
+        }
+        form
+        {
+            width:750px;
+            height:auto;
+            border:20px solid #d2f5f5;
+            background-color:white;
+        }
+        h1
+        {
+            background-color: orangered;
+            margin:0;
+            border:10px solid white;
+            text-align:center;
+            color:white;
+        }
+        .for_checkbox
+        {
+            color: #e95930;
+            display:flex;
+            flex-wrap:wrap;
+        }
+        div span
+        {
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form action="">
+        <h1>YOUR HOBBIES</h1><br>
+        <table>
+            <tr>
+                <td style="text-align:right;width:160px">
+                    <label for="fullname" style="color:blue">Full Name</label><br><br>
+                    <label for="email" style="color:blue">Email</label><br><br>
+                    <span style="color:blue">Hobbies</span>
+                </td>
+                <td>
+                    <input type="text" id="fullname" name="fullname" value="" placeholder="" size="35"><br><br>
+                    <input type="text" id="email" name="email" value="" placeholder="" size="20"><br><br>
+                    <div class="for_checkbox">
+                            <span>
+                                <input type="checkbox" name="hobbies" id="sport">
+                                <label for="sport">Sport</label>
+                            </span>
+                        <span>
+                                <input type="checkbox" name="hobbies" id="music">
+                                <label for="music">Music</label>
+                            </span>
+                        <span>
+                                <input type="checkbox" name="hobbies" id="books">
+                                <label for="books">Books</label>
+                            </span>
+                        <span>
+                                <input type="checkbox" name="hobbies" id="web">
+                                <label for="web">Web</label>
+                            </span>
+                        <span>
+                                <input type="checkbox" name="hobbies" id="games">
+                                <label for="games">Games</label>
+                            </span>
+                        <span>
+                                <input type="checkbox" name="hobbies" id="film">
+                                <label for="film">Films</label>
+                            </span>
+                        <span>
+                                <input type="checkbox" name="hobbies" id="travel">
+                                <label for="travel">Travel</label>
+                            </span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</div>
+</body>
+</html>
